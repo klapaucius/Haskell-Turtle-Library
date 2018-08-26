@@ -6,7 +6,7 @@ environment:
   matrix:
     # 64 bit builds
     - GHCVER: "8.6.1-beta1"
-      CHOCOPTS:
+      CHOCOPTS: -pre
     - GHCVER: "8.4.3"
       CHOCOPTS:
     - GHCVER: "8.2.2"
